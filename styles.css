@@ -1,0 +1,89 @@
+* {
+    font-family: "SUSE", sans-serif;
+  
+}
+
+svg path {
+    fill: black;
+    height: 1rem;
+    width: 1rem;
+}
+
+#title {
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: bisque;
+    width: 102%;
+    margin: -8px;
+    
+}
+
+#new-book {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(253, 216, 171);
+}
+
+dialog {
+    padding: 0px;
+}
+
+.wrapper {
+    padding: 16px;
+}
+
+
+
+#content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    padding-left: 15px;
+   
+    border-radius: 10px;
+    background-color: rgb(248, 187, 113);
+    font-weight: 500;
+    margin: 10px;
+    margin-bottom: 55px;
+}
+
+
+
+.trash {
+    border-radius: 10px;
+    position: static;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: -15px;
+}
+
+#new-book-form {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.read-button {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100px;
+    border: 1px, solid, rgb(233, 151, 51);
+    border-radius: 10px;
+    
+}

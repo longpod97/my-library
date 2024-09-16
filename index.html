@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="header">
+        <svg class="svg-snoweb svg-theme-light" height="100" preserveaspectratio="xMidYMid meet" viewbox="0 0 100 100" width="100" x="0" xmlns="http://www.w3.org/2000/svg" y="0">
+            <path class="svg-stroke-primary" d="M50,25.4V79.9m0-54.5a34.06,34.06,0,0,0-18.9-5.3,34,34,0,0,0-18.8,5.3V79.9a34,34,0,0,1,18.8-5.3A34.06,34.06,0,0,1,50,79.9m0-54.5a34.06,34.06,0,0,1,18.9-5.3,34,34,0,0,1,18.8,5.3V79.9a34,34,0,0,0-18.8-5.3A34.06,34.06,0,0,0,50,79.9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+            </path>
+        </svg>
+        <div id="title">Welcome to My Library</div>
+        <button id="new-book">Add Book</button>
+    </div>
+
+    <div id="content">
+
+        
+        <dialog id="new-book-form">
+            <div class="wrapper">
+                <h2>Add Your Book:</h2>
+                <form>
+                    <label for="new-title">Title:</label>
+                    <input type="text" id="new-title">
+                    <br>
+                    <br>
+                    <label for="new-author">Author:</label>
+                    <input type="text" id="new-author">
+                    <br>
+                    <br>
+                    <label for="new-pages">No. of pages:</label>
+                    <input type="number" id="new-pages">
+                    <br>
+                    <br>
+                    <input type="radio" name="read-or-not" id="read" value="Read">
+                    <label for="read">I have read this book</label>
+                    <br>
+                    <input type="radio" name="read-or-not" id="not-read" value="Not Read">
+                    <label for="not-read">I have not read this book yet</label>
+                    <br>
+                    <br>
+                    <button id="close-form">Cancel</button>
+                    <button id="submit">Submit</button>
+
+                </form>
+            </div>
+        </dialog>
+
+
+
+        
+
+
+    </div>
+
+    
+</body>
+</html>
